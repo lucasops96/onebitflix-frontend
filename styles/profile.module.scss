@@ -1,0 +1,20 @@
+@import "./colors.module.scss";
+
+.form{
+    border: 1px solid $darkGray;
+    padding: 20px 0px;
+    max-width: 100%;
+}
+
+.formName{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    margin: 20px auto;
+    text-transform: uppercase;
+}
+
+.memberTimeImg{
+    width: 20px;
+}
