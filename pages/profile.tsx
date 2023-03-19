@@ -3,6 +3,7 @@ import Head from "next/head";
 import styles from "../styles/profile.module.scss";
 import HeaderAuth from "../src/components/common/headerAuth";
 import { Button, Col, Container, Row } from "reactstrap";
+import Footer from "../src/components/common/footer";
 
 const UserInfo = function(){
     return(
@@ -12,7 +13,9 @@ const UserInfo = function(){
                 <link rel="shortcut icon" href="/favicon.svg" type="image/x-icon" />
             </Head>
             <main>
-                <HeaderAuth/>
+                <div className={styles.header}>
+                    <HeaderAuth/>
+                </div>
                 <Container className="py-5">
                     <p className={styles.title}>Minha Conta</p>
                     
@@ -30,6 +33,9 @@ const UserInfo = function(){
                         </Col>
                     </Row>
                 </Container>
+                <div className={styles.footer}>
+                    <Footer/>
+                </div>
             </main>
         </>
     );

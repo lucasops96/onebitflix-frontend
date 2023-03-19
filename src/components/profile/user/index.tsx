@@ -20,7 +20,7 @@ const UserForm = function(){
                     </p>
                 </div>
                 <hr />
-                <div>
+                <div className={styles.inputFlexDiv}>
                     <FormGroup>
                         <Label for="firstName" className={styles.label}>
                             NOME
@@ -52,7 +52,7 @@ const UserForm = function(){
                         />
                     </FormGroup>
                 </div>
-                <div>
+                <div className={styles.inputNormalDiv}>
                     <FormGroup>
                         <Label for="phone" className={styles.label}>
                             WHASTAPP / TELEGRAM</Label>
