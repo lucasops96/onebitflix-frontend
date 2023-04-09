@@ -4,7 +4,6 @@ import styles from "../styles/profile.module.scss";
 import HeaderAuth from "../src/components/common/headerAuth";
 import { Button, Col, Container, Row } from "reactstrap";
 import Footer from "../src/components/common/footer";
-import { useState } from "react";
 import PasswordForm from "../src/components/profile/password";
 
 import { useRouter } from "next/router";
