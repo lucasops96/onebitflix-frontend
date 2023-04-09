@@ -1,5 +1,4 @@
 # onebitflix-frontend
- Front-end clone da netflix
 - Projeto do onebitflix consiste na criação de uma aplicação web, no qual os usuários cadastrados poderam assistir os cursos com vários episódios em diversas categorias. Podendo também favoritar um curso e dá like.
 
 ## Tecnologias utilizadas no projeto:
