@@ -7,17 +7,15 @@ const Footer = function (){
         <>
         <Container className={styles.footer}>
             <img 
-                src="/logoOnebitcode.svg" 
+                src="/logoOnebitFLIX.svg" 
                 alt="logoFooter"
                 className={styles.footerLogo} 
             />
-            <a 
-                href="http://onebitcode.com"
-                target={"_blank"}
+            <p 
                 className={styles.footerLink}
             >
-                ONEBITCODE.COM
-            </a>
+                ONEBITFLIX.COM
+            </p>
         </Container>
         </>
     );
